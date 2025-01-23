@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headers:hover {
+    border-bottom: 2px solid orange;
+}
+.headers:active {
+    border-bottom: 2px solid orange;
+}
