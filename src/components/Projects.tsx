@@ -1,5 +1,5 @@
-import React from 'react';
-import { Github, ExternalLink } from 'lucide-react';
+import React from "react";
+import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
@@ -7,8 +7,8 @@ const projects = [
     description: "A full-stack e-commerce app to sell and buy pre-owned items",
     image: "/swaphub.png",
     tech: ["React", "Nextjs", "MongoDB"],
-    github: "",
-    live: ""
+    github: "https://github.com/bettygitbie/swaphub",
+    live: "https://swaphub-n4kw.onrender.com/",
   },
   {
     title: "Jeopardy Game",
@@ -16,7 +16,7 @@ const projects = [
     image: "/Jeopardy.png",
     tech: ["HTML", "CSS", "JavaScript", "API"],
     github: "https://github.com/bettygitbie/Jeopardy-API",
-    live: "https://bettyjeopardygame.netlify.app/"
+    live: "https://bettyjeopardygame.netlify.app/",
   },
   {
     title: "Butterfly Blog",
@@ -24,25 +24,37 @@ const projects = [
     image: "/Butterfly-Blog.png",
     tech: ["Express", "EJS", "MongoDB"],
     github: "https://github.com/bettygitbie/Butterfly-blog",
-    live: "https://github.com/bettygitbie/Butterfly-blog"
-  }
+    live: "https://github.com/bettygitbie/Butterfly-blog",
+  },
 ];
 
 export default function Projects() {
   return (
     <section id="projects" className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Featured Projects</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">
+          Featured Projects
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <div key={project.title} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-              <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
+            <div
+              key={project.title}
+              className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-48 object-cover"
+              />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech) => (
-                    <span key={tech} className="px-3 py-1 bg-gray-100 text-sm rounded-full">
+                    <span
+                      key={tech}
+                      className="px-3 py-1 bg-gray-100 text-sm rounded-full"
+                    >
                       {tech}
                     </span>
                   ))}
