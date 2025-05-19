@@ -18,8 +18,9 @@ export default function Hero() {
           <p className="text-xl text-gray-600 mb-8">
             Highly motivated software developer with hands-on experience in both
             front-end and back-end technologies, including JavaScript,
-            TypeScript, React, Node.js, Nextjs, Express, Redux state management and databases such as PostgreSQL and
-            MongoDB. Gaining expertise in data structures and algorithms.
+            TypeScript, React, Node.js, Nextjs, Express, Redux state management
+            and databases such as PostgreSQL and MongoDB. Gaining expertise in
+            data structures and algorithms.
           </p>
           <a
             href="#contact"
@@ -30,7 +31,7 @@ export default function Hero() {
         </div>
         <div className="relative">
           <img
-            src="https://media.licdn.com/dms/image/v2/D5603AQEzUaUEZ2fTCQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725848522478?e=1742428800&v=beta&t=wQwcLZdAQVGIjJqSXEeD2tlCtcprQ_gekwCIYUZ0N8Y"
+            src="https://media.licdn.com/dms/image/v2/D5603AQEzUaUEZ2fTCQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725848522478?e=1753315200&v=beta&t=YjsuqvQcoMTrxnQ1ADTYeoe35cyBngGqIR4cw6kBjdg"
             alt="Betty Mekonnen"
             className="rounded-full shadow-xl"
           />
