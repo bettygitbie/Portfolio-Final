@@ -31,7 +31,7 @@ export default function Hero() {
         </div>
         <div className="relative">
           <img
-            src="https://media.licdn.com/dms/image/v2/D5603AQEzUaUEZ2fTCQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725848522478?e=1753315200&v=beta&t=YjsuqvQcoMTrxnQ1ADTYeoe35cyBngGqIR4cw6kBjdg"
+            src="https://media.licdn.com/dms/image/v2/D5603AQEzUaUEZ2fTCQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725848522478?e=1758153600&v=beta&t=yM2NS3cZ2hZpQ343w3QkboGS5L-AsHeaPoxMMGRK5KE"
             alt="Betty Mekonnen"
             className="rounded-full shadow-xl"
           />
