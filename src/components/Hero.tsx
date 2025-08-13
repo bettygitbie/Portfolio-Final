@@ -26,7 +26,7 @@ export default function Hero() {
             href="#contact"
             className="inline-flex items-center gap-2 bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition-colors"
           >
-            Let's Connect <ArrowRight size={20} />
+            Let's Connect! <ArrowRight size={20} />
           </a>
         </div>
         <div className="relative">
